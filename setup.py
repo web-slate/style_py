@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='stylepy',
-    version='0.2',
+    version='0.3',
     packages=find_packages(),
     install_requires=[],
     author='Venkatraman.R',
@@ -12,5 +12,6 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/web-slate/stylepy',
     license='MIT',
+    setup_requires=['wheel'],
     python_requires=">=3.3",
 )
